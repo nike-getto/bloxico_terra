@@ -3,7 +3,7 @@ locals {
   parsed = regex(".*/live/(?P<env>.*?)/.*", get_terragrunt_dir())
   env    = local.parsed.env
 }
-# Configure S3 as a backend
+
 remote_state {
   backend = "s3"
   config = {
