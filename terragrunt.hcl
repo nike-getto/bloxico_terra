@@ -7,7 +7,7 @@ locals {
 remote_state {
   backend = "s3"
   config = {
-    bucket = "nikesevojno-example-bucket-${local.env}"
+    bucket = "bloxico-project-sava-${local.env}"
     region = "eu-central-1"
     key    = "${path_relative_to_include()}/terraform.tfstate"
   }
