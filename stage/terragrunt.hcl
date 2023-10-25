@@ -12,6 +12,6 @@ remote_state {
 		key = "${path_relative_to_include()}/terraform.tfstate"
 		region = "eu-central-1"
 		encrypt = true
-		dynamo_db_table = "my_lock_table"
+		dynamodb_table = "my_lock_table"
 	}
 }
