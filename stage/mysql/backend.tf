@@ -4,7 +4,7 @@ terraform {
     bucket         = "bloxico-backend-grunt"
     dynamodb_table = "my_lock_table"
     encrypt        = true
-    key            = "frontend-app/terraform.tfstate"
+    key            = "mysql/terraform.tfstate"
     region         = "eu-central-1"
   }
 }
