@@ -43,3 +43,10 @@ remote_state {
 		if_exists = "overwrite_terragrunt"
 	}
 }
+
+# Global parameters (automatically merged into child "terragrunt.hcl")
+inputs = merge(
+	local.account_vars.locals,
+	local.region_vars.locals,
+	local.environment_vars.locals
+)
