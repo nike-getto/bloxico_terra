@@ -2,7 +2,7 @@
 # in the root "terragrunt.hcl" configuration
 
 locals {
-	account_name = "non-prod"
+	account_name = "sava"
 	aws_account_id = "497935891301"
-	aws_profile = "non-prod"
+	aws_profile = "sava.stanisic"
 }
