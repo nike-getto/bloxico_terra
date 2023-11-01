@@ -14,7 +14,10 @@ locals {
 	base_source_url = "https://github.com/cloudposse/terraform-aws-components/tree/main/modules/alb"
 }
 	
-# MODULE PARAMETERS	
+# MODULE PARAMETERS
 inputs = {
-	name = "alb_${local.env}"
+	alb_name = "alb_${local.env}"
+	is_internal_alb = false
+	ssl_policy = ""
+	vpc_subnet_ids = []
 }
