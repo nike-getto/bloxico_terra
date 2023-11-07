@@ -1,11 +1,3 @@
-# TODO: Complete this!
-# ---------------------------------------------------------------------------------------------------------------------
-# COMMON TERRAGRUNT CONFIGURATION
-# This is the common component configuration for webserver-cluster. The common variables for each environment to
-# deploy webserver-cluster are defined here. This configuration will be merged into the environment configuration
-# via an include block.
-# ---------------------------------------------------------------------------------------------------------------------
-
 # ---------------------------------------------------------------------------------------------------------------------
 # Locals are named constants that are reusable within the configuration.
 # ---------------------------------------------------------------------------------------------------------------------
